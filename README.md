@@ -1,3 +1,13 @@
+# Ocarina of Time low-memory kit (fork notice)
+
+This fork carries a low-memory kit for **The Legend of Zelda: Ocarina of Time** on 8 GB Macs and iPhones: RAM saver, texture stand-ins with the UI/map kept sharp, shadow-map divider, texture sweep, a 20 fps target, a Mac app patcher and an iPhone build/sign/install tool.
+
+- **Read the full guide, tested settings and tools:** [`ocarina-lowmem/` on branch `ocarina-low-memory-156de5a1`](https://github.com/eir4/neOcariNative/tree/ocarina-low-memory-156de5a1/ocarina-lowmem)
+- **Download:** the latest release of this repository (`ocarina-lowmem-v1.0`).
+- **Why a branch and not main:** the kit is written for nxnative commits `80fc2ecb` to `156de5a1` (shader libraries `cb2e91c138e3`). `main` follows newer upstream code, which would not match an app built from those shaders.
+
+---
+
 # nxnative
 
 Play your own Nintendo Switch and Switch 2 games natively on Apple silicon Macs, iPhone and iPad. One script packs your game into a Mac app or an unsigned IPA that you sideload.
